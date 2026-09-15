@@ -1,5 +1,5 @@
 # TrialFinder
-Currently broken with some bugs, took down the exe. 1.2 was mostly fine.
+Currently broken with some bugs, for multiple chamber mode selecting anything other than 1 doesnt work. Everything else is fine, sometimes crashes when there are big parameters. Will fix.
 
 Finds the spots with the most trial spawners, vaults or ominous vaults inside an area on a set seed.
 It rebuilds every trial chamber exactly the way Minecraft does (every piece, every spawner and vault) without running
