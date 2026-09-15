@@ -1,0 +1,9 @@
+Linux / macOS (gcc or clang):
+gcc -o TrialFinder -std=gnu99 -O2 -ffp-contract=off ./src/*.c ./src/*/*.c -lm -lpthread
+
+Windows (MinGW-w64):
+windres ./src/TrialFinder.rc -O coff -o TrialFinder.res
+gcc -o TrialFinder.exe -std=gnu99 -O2 -ffp-contract=off -static ./src/*.c ./src/*/*.c TrialFinder.res
+
+Windows (Visual Studio, from a Developer Command Prompt):
+build.bat
