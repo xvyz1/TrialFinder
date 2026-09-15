@@ -1,4 +1,6 @@
 # TrialFinder
+Currently broken with some bugs, took down the exe. 1.2 was mostly fine.
+
 Finds the spots with the most trial spawners, vaults or ominous vaults inside an area on a set seed.
 It rebuilds every trial chamber exactly the way Minecraft does (every piece, every spawner and vault) without running
 the game.
